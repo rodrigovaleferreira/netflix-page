@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-image: url(../img/banner1.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+
+main{
+    display: inline;
+}
+
+.logo{
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.logo-banner{
+    width: 450px;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+.logo-title{
+    margin-top: 4px;
+    margin-left: 80px;
+    font-size: 1.2vw;
+    color: white;
+    line-height: 1.25;
+    padding: 1rem 13rem 0 0;
+
+}
+
+.button{
+    
+    margin-left: 80px;
+    display: flex;
+    align-items:flex-start;
+    margin-top: 8px;
+}
+
+.button-play{
+    border-radius: 3px;
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 35px;
+    padding-left: 35px;
+    font-weight: 600;
+    font-size:large;
+    cursor: pointer;
+}
+
+.button-info{
+    margin-left: 20px;
+    border: solid transparent;
+    border-radius: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 35px;
+    padding-left: 35px;
+    font-weight: 600;
+    font-size:large;
+    color: white;
+    background-color: rgba(237, 231, 225, .5);
+}
+
+.button-play:hover{
+    background-color: rgba(255, 255, 255, 0.777);
+}
+
+.button-info:hover{
+    background-color: rgba(109, 109, 110, 0.525);
+}
