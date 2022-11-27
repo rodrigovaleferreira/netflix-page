@@ -18,6 +18,7 @@ body {
     background-repeat:no-repeat ;
     background-size: cover;
     height: 100vh;
+    padding: 0.26rem 0.75rem 0 0.75rem;
 
 }
 
@@ -137,3 +138,99 @@ header{
     height: 30px;
     padding-left: 20px ;
 }
+
+
+
+.swiper-container{
+    transition: .3s ease all;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: black ;
+    overflow-x: hidden;
+    padding-bottom: 100px;
+}
+
+.swiper-slide{
+    text-align: center;
+    background-color: black;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content:center ;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-itens:center;
+    align-items: center;
+    transform: scale(1.1);
+}
+
+.lista-pessoal img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+::after{
+    color: white;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    padding-top: 29%;
+    top: 100%;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+
+/*
+section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 20px 0;
+}
+.lista-pessoal{
+    margin-left: 70px;
+
+}
+
+h2{
+    padding-left: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: 300;
+}
+
+.opcoes{
+    display: flex;
+    flex-direction: row;
+    background-color: black ;
+    overflow-x: hidden;
+    
+    
+    
+}
+.lista{
+    position:relative;
+    height: 150px;
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+
+
+
+
+footer p{
+    color: white;
+}*/

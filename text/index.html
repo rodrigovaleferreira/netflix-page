@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>netflix page</title>
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </head>
 
 
@@ -46,16 +51,47 @@
 
         </div>
 
-
+        <div class="lista-pessoal">
+            <h2>Minha lista</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <img src="../img/poster_01.png" alt="" class="swiper-slide">
+                    <img src="../img/poster_02.png" alt="" class="swiper-slide">
+                    <img src="../img/poster_03.png" alt="" class="swiper-slide">
+                    <img src="../img/poster_04.png" alt="" class="swiper-slide">
+                    <img src="../img/poster_05.png" alt="" class="swiper-slide">
+                    <img src="../img/poster_06.png" alt="" class="swiper-slide">
+                    <img src="../img/poster_07.png" alt="" class="swiper-slide">
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
 
     </main>
 
     <footer>
-
+        <p>espaço</p>
     </footer>
 
 
-
+    <script>
+        var swiper = new Swiper('.swiper-container',{
+            slidesPerView:6,
+            spaceBetween:40,
+            slidesPerGroup:3,
+            loop:true,
+            loopFillGroupWithBlank:true,
+            pagination:{
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+        });
+    </script>
 
 </body>
 
