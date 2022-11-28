@@ -139,7 +139,10 @@ header{
     padding-left: 20px ;
 }
 
+.conjunto-serie{
 
+    margin-bottom: 400px;
+}
 
 .swiper-container{
     transition: .3s ease all;
@@ -149,6 +152,8 @@ header{
     background-color: black ;
     overflow-x: hidden;
     padding-bottom: 100px;
+    width: 100%;
+    height: 100%;
 }
 
 .swiper-slide{
@@ -163,22 +168,34 @@ header{
     -ms-flex-align: center;
     -webkit-align-itens:center;
     align-items: center;
-    transform: scale(1.1);
+    
 }
 
-.lista-pessoal img{
+.conjunto-serie img{
     width: 100%;
     height: auto;
     cursor: pointer;
 }
+
+.conjunto-serie img:hover{
+    transform: scale(1.18);
+    z-index: 1;
+}
+
+.conjunto-serie img:first-child:hover{
+    margin: 0 4px;
+}
+
+.conjunto-serie img:first-child:hover{
+    margin: 0 4px;
+}
+
 ::after{
     color: white;
 }
 
-.swiper-button-next,
-.swiper-button-prev{
-    padding-top: 29%;
-    top: 100%;
+#pf{
+    margin-top: 400px;
 }
 
 h2{
@@ -189,48 +206,18 @@ h2{
     font-weight: 700;
 }
 
-/*
-section {
-    width: 100%;
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    margin: 20px 0;
-}
-.lista-pessoal{
-    margin-left: 70px;
 
+#teste{
+    margin-top: 700px;
 }
 
-h2{
+.top10 h2{
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
     padding-left: 10px;
     color: white;
     font-size: larger;
-    font-weight: 300;
-}
-
-.opcoes{
-    display: flex;
-    flex-direction: row;
-    background-color: black ;
-    overflow-x: hidden;
-    
-    
-    
-}
-.lista{
-    position:relative;
-    height: 150px;
-    width: 300px;
-    padding-left: 10px;
-    padding-right: 10px;
-    
+    font-weight: 800;
 }
 
 
-
-
-
-footer p{
-    color: white;
-}*/

@@ -51,35 +51,60 @@
 
         </div>
 
-        <div class="lista-pessoal">
-            <h2>Minha lista</h2>
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <img src="../img/poster_01.png" alt="" class="swiper-slide">
-                    <img src="../img/poster_02.png" alt="" class="swiper-slide">
-                    <img src="../img/poster_03.png" alt="" class="swiper-slide">
-                    <img src="../img/poster_04.png" alt="" class="swiper-slide">
-                    <img src="../img/poster_05.png" alt="" class="swiper-slide">
-                    <img src="../img/poster_06.png" alt="" class="swiper-slide">
-                    <img src="../img/poster_07.png" alt="" class="swiper-slide">
+        <div class="conjunto-serie">
+            <div class="lista1">
+                <h2>Minha lista</h2>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <img src="../img/poster_01.png" alt="" class="swiper-slide">
+                        <img src="../img/poster_02.png" alt="" class="swiper-slide">
+                        <img src="../img/poster_03.png" alt="" class="swiper-slide">
+                        <img src="../img/poster_04.png" alt="" class="swiper-slide">
+                        <img src="../img/poster_05.png" alt="" class="swiper-slide">
+                        <img src="../img/poster_06.png" alt="" class="swiper-slide">
+                        <img src="../img/poster_07.png" alt="" class="swiper-slide">
+                        <img src="../img-top10/poster_01.png" alt="" class="swiper-slide">
+                        <img src="../img-top10/poster_02.png" alt="" class="swiper-slide">
+                        <img src="../img-top10/poster_03.png" alt="" class="swiper-slide">
+                        <img src="../img-top10/poster_04.png" alt="" class="swiper-slide">
+                        <img src="../img-top10/poster_05.png" alt="" class="swiper-slide">
+                    </div>
+                        <div id="pf" class="swiper-button-prev"></div>
+                        <div id="pf" class="swiper-button-next"></div>
                 </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+            </div> 
+            <div class="top10">
+                <h2>Mais assistidos</h2>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <img src="../img-top10/poster_01.png" alt="" class="swiper-slide">
+                        <img src="../img-top10/poster_02.png" alt="" class="swiper-slide">
+                        <img src="../img-top10/poster_03.png" alt="" class="swiper-slide">
+                        <img src="../img-top10/poster_04.png" alt="" class="swiper-slide">
+                        <img src="../img-top10/poster_05.png" alt="" class="swiper-slide">
+                        <img src="../img-top10/poster_11.png" alt="" class="swiper-slide">
+                        <img src="../img-top10/poster_06.png" alt="" class="swiper-slide">
+                    </div> 
+                    <div  id="teste" class="swiper-button-prev"></div>
+                    <div id="teste" class="swiper-button-next"></div>
+                </div>
             </div>
+    
+
         </div>
 
     </main>
 
     <footer>
-        <p>espaço</p>
+        
     </footer>
 
 
     <script>
         var swiper = new Swiper('.swiper-container',{
-            slidesPerView:6,
-            spaceBetween:40,
-            slidesPerGroup:3,
+            slidesPerView:5,
+            spaceBetween:20,
+            slidesPerGroup:2,
             loop:true,
             loopFillGroupWithBlank:true,
             pagination:{
